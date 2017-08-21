@@ -1,0 +1,68 @@
+body{
+  background-color: #ffffff;
+  max-width: 1500px;
+  padding:60px;
+  margin:25px;
+  alignment: left;
+
+}
+nav {
+  background: grey;
+  text-align: center;
+  float: left;
+  width: 300 px;
+  margin:0px;
+  padding-top: 50px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
+}
+a:link {
+    color: black;
+    background-color: transparent;
+}
+a:hover {
+    color: grey;
+    background-color: transparent;
+}
+
+a:active {
+    color: grey;
+    background-color: transparent;
+}
+
+.container {
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    position: relative;
+    width: 404px;
+    top :0;
+    transition: top ease 0.2s;
+    box-shadow:
+    0 10px 8px 0 #d1d1d1, 0 6px 20px 0 #d1d1d1;
+
+}
+.container:hover{
+   top: -30px;
+ }
+
+
+.container img {
+    width: 100%;
+    height: auto;
+
+}
+.description {
+    padding: 15px;
+    text-align: center;
+}
+
+footer{
+    padding:20em;
+    color: black;
+    clear: left;
+    text-align: center;
+
+}
